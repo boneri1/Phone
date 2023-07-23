@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>e-Registiify</title>
+</head>
+<body>
+	<center><form method="POST" action="regist_new_user.php" id="myForm">
+		<h1>Registration Form</h1>
+		<table>
+			<tr><td>FirstName:</td><td><input type="text" name="firstName" required></td></tr>
+			<tr><td>LastName:</td><td><input type="text" name="lastName" required ></td></tr>
+			<tr><td>Password:</td><td><input type="password" name="password" required></td></tr>
+			<tr><td>PhoneNumber:</td><td><input type="number" name="phoneNumber" id="phone" required maxlength="10"></td></tr>
+			<tr><td>Email:</td><td><input type="email" name="email" required></td></tr>
+			<tr><td>NationalId:</td><td><input type="number" name="nationalId" id="validateId" required></td></tr>
+			<tr><td>Address:</td><td><input type="text" name="address" required></td></tr>
+			<tr><td></td><td><input type="submit" name="ok" value="Record✍"></td></tr>
+		</table>
+	</form></center>
+		  <script type="text/javascript" src="./js/validate.js"></script>
+</body>
+</html>
